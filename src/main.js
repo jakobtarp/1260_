@@ -4,9 +4,9 @@ import "./style.css";
 import { animate, stagger, inView, scroll, timeline } from "motion";
 
 inView(".box1", () => {
-  animate(".box1", { x: [-2000, 0] }, { duration: 3 });
+  animate(".box1", { x: [-2000, 0] }, { duration: 1 });
 });
 
 inView(".box2", () => {
-  animate(".box2", { x: [-8500, 0] }, { duration: 5 });
+  animate(".box2", { x: [-3000, 0] }, { duration: 3 });
 });
